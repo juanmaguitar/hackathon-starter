@@ -168,7 +168,6 @@ them with *your credentials* when you are ready to deploy an app.
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1000px-Google_2015_logo.svg.png" width="200">
 
 - Visit <a href="https://cloud.google.com/console/project" target="_blank">Google Cloud Console</a>
-
 - Click on the **Create Project** button
 - Enter *Project Name*, then click on **Create** button
 - Then click on *APIs & auth* in the sidebar and select *API* tab
@@ -212,6 +211,7 @@ The same goes for other providers.
 <hr>
 
 <img src="https://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Logo.png" width="200">
+
 - Go to <a href="https://github.com/settings/profile" target="_blank">Account Settings</a>
 - Select **Applications** from the sidebar
 - Then inside **Developer applications** click on **Register new application**
@@ -223,6 +223,7 @@ The same goes for other providers.
 <hr>
 
 <img src="https://g.twimg.com/ios_homescreen_icon.png" width="90">
+
 - Sign in at <a href="https://apps.twitter.com/" target="_blank">https://apps.twitter.com</a>
 - Click **Create a new application**
 - Enter your application name, website and description
@@ -236,6 +237,7 @@ The same goes for other providers.
 <hr>
 
 <img src="http://www.danpontefract.com/wp-content/uploads/2014/02/logo-linkedin.png" width="200">
+
 - Sign in at <a href="https://developer.linkedin.com/" target="_blank">LinkedIn Developer Network</a>
 - From the account name dropdown menu select **API Keys**
  - *It may ask you to sign in once again*
@@ -253,6 +255,7 @@ The same goes for other providers.
 <hr>
 
 <img src="https://stripe.com/img/about/logos/logos/black@2x.png" width="200">
+
 - <a href="https://stripe.com/" target="_blank">Sign up</a> or log into your <a href="https://manage.stripe.com" target="_blank">dashboard</a>
 - Click on your profile and click on Account Settings
 - Then click on **API Keys**
@@ -260,6 +263,7 @@ The same goes for other providers.
 <hr>
 
 <img src="https://pixabay.com/static/uploads/photo/2015/05/26/09/37/paypal-784404_960_720.png" width="200">
+
 - Visit <a href="https://developer.paypal.com" target="_blank">PayPal Developer</a>
 - Log in to your PayPal account
 - Click **Applications > Create App** in the navigation bar
@@ -271,6 +275,7 @@ The same goes for other providers.
 <hr>
 
 <img src="http://33.media.tumblr.com/ffaf0075be879b3ab0b87f0b8bcc6814/tumblr_inline_n965bkOymr1qzxhga.png" width="200">
+
 - Go to <a href="https://developer.foursquare.com" target="_blank">Foursquare for Developers</a>
 - Click on **My Apps** in the top menu
 - Click the **Create A New App** button
@@ -282,6 +287,7 @@ The same goes for other providers.
 <hr>
 
 <img src="http://img4.wikia.nocookie.net/__cb20130520163346/logopedia/images/8/8d/Tumblr_logo_by_x_1337_x-d5ikwpp.png" width="200">
+
 - Go to <a href="http://www.tumblr.com/oauth/apps" target="_blank">http://www.tumblr.com/oauth/apps</a>
 - Once signed in, click **+Register application**
 - Fill in all the details
@@ -292,6 +298,7 @@ The same goes for other providers.
 <hr>
 
 <img src="http://www.technologytell.com/gaming/files/2012/01/steam_logo.jpg" width="200">
+
 - Go to <a href="http://steamcommunity.com/dev/apikey" target="_blank">http://steamcommunity.com/dev/apikey</a>
 - Sign in with your existing Steam account
 - Enter your *Domain Name*, then and click **Register**
@@ -300,6 +307,7 @@ The same goes for other providers.
 <hr>
 
 <img src="https://sendgrid.com/brand/sg-logo-300.png" width="200">
+
 - Go to <a href="https://sendgrid.com/user/signup" target="_blank">https://sendgrid.com/user/signup</a>
 - Sign up and **confirm** your account via the *activation email*
 - Then enter your SendGrid *Username* and *Password* into `.env` file
@@ -307,6 +315,7 @@ The same goes for other providers.
 <hr>
 
 <img src="https://raw.github.com/mailgun/media/master/Mailgun_Primary.png" width="200">
+
 - Go to <a href="http://www.mailgun.com" target="_blank">http://www.mailgun.com</a>
 - Sign up and add your *Domain Name*
 - From the domain overview, copy and paste the default SMTP *Login* and *Password* into `.env` file
@@ -314,6 +323,7 @@ The same goes for other providers.
 <hr>
 
 <img src="https://s3.amazonaws.com/ahoy-assets.twilio.com/global/images/wordmark.svg" width="200">
+
 - Go to <a href="https://www.twilio.com/try-twilio" target="_blank">https://www.twilio.com/try-twilio</a>
 - Sign up for an account.
 - Once logged into the dashboard, expand the link 'show api credentials'
@@ -1202,6 +1212,7 @@ listed below.
 ### 1-Step Deployment with Heroku
 
 <img src="http://blog.exadel.com/wp-content/uploads/2013/10/heroku-Logo-1.jpg" width="200">
+
 - Download and install [Heroku Toolbelt](https://toolbelt.heroku.com/)
 - In terminal, run `heroku login` and enter your Heroku credentials
 - From *your app* directory run `heroku create`
@@ -1213,6 +1224,7 @@ listed below.
 ---
 
 <img src="http://i.imgur.com/7KnCa5a.png" width="200">
+
 - Open [mlab.com](https://mlab.com) website
 - Click the yellow **Sign up** button
 - Fill in your user information then hit **Create account**
@@ -1234,6 +1246,7 @@ listed below.
 
 
 <img src="http://www.opencloudconf.com/images/openshift_logo.png" width="200">
+
 - First, install this Ruby gem: `sudo gem install rhc` :gem:
 - Run `rhc login` and enter your OpenShift credentials
 - From your app directory run `rhc app create MyApp nodejs-0.10`
