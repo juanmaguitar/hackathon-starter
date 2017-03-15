@@ -166,6 +166,7 @@ all API examples to get you up and running even faster. But don't forget to upda
 them with *your credentials* when you are ready to deploy an app.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1000px-Google_2015_logo.svg.png" width="200">
+
 - Visit <a href="https://cloud.google.com/console/project" target="_blank">Google Cloud Console</a>
 
 - Click on the **Create Project** button
@@ -192,6 +193,7 @@ The same goes for other providers.
 <hr>
 
 <img src="http://www.doit.ba/img/facebook.jpg" width="200">
+
 - Visit <a href="https://developers.facebook.com/" target="_blank">Facebook Developers</a>
 - Click **My Apps**, then select **Add a New App* from the dropdown menu
 - Select **Website** platform and enter a new name for your app
